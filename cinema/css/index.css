@@ -1,0 +1,72 @@
+.site_container {
+    margin-top: 50px;
+}
+
+/* INTEGRATED NAV SECTION */
+.navbar.integrated {
+    background-color: #2a2a2a;
+    font-weight: bold;
+}
+
+/* HEADER SECTION */
+
+#logo {
+    width: 150px;
+    height: 50px;
+    background: gray;
+    border: 1px dotted black;
+}
+
+/* CAROUSEL SECTION */
+
+.carousel-row {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-bottom: 5px; 
+}
+
+.carousel-caption {
+    color: #2a2a2a;
+}
+
+.carousel-navigation {
+}
+
+.carousel-navigation li {
+    list-style: none;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+/* NÃO FUNCIONA */
+/*
+.carousel-navigation li.active {
+    color: gray;
+}
+*/
+.carousel-navigation li:hover {
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* DESTAQUES SECTION */
+
+.destaque {
+    background-color: #f2f2f2;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.destaque h2 {
+    text-align: center;
+}
+
+.destaque p {
+    text-align: justify;
+    padding: 0px 5px;
+}
+

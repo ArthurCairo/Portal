@@ -1,0 +1,150 @@
+/* INTEGRATED NAV SECTION */
+.navbar.integrated {
+    background-color: #369100;
+    font-weight: bold;
+    color:#fff;
+}
+.page-container {
+    margin-top: 50px;
+}
+#logo {
+    margin-top:1em;
+}
+header{
+    background-color:#53DF00;
+    color: #fff;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.page-title
+{
+    background-color: #7EEF3C;
+    color:#fff;
+}
+body{
+    margin: 0 auto;
+}
+.titulo-artigo{
+    color:#fff;
+    background-color:#58A72A;
+    margin-top: 0.75em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+ul li{
+   display:inline;
+}
+.navbar-inverse{
+    background-color:#1B1BB3;
+    border-color:transparent;
+    color:#000;
+    font-weight: bold;
+}
+.navbar-inverse .active{
+    background-color:#090974;
+}
+
+
+article h1{
+    font-size: 1em;
+    padding-left: 2em;
+    font-weight:bold;
+    
+}
+article h3,p
+{
+    text-align:center;
+}
+article h3{
+    font-size: 1em;
+    font-weight:bold;
+}
+article a:hover
+{
+    font: #fff;
+    background-color:#000;
+}
+article .row{
+    margin-top:1em;
+}
+
+.secao {
+    text-align:center;
+}
+
+@media (max-width: 990px){
+    .secao-1{
+        padding-left:0px;
+        text-align: center;
+    }
+    .secao-2{
+        padding-left:0px;
+    }
+    aside
+    {
+       visibility:hidden;
+    }
+}
+
+.secao img,a{
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 2em;
+    border-top: #090974 1px solid;
+}
+footer ul li
+{
+    display:block;
+}
+footer p
+{
+    text-align:justify;
+}
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.duas-colunas h3{
+    text-align:left;
+    padding-left: 1em;
+}
+.duas-colunas p{
+    text-align:justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.top_10 p{
+    text-align:justify;
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+
+.lista{
+    padding-left:0px;   
+}
+.lista ul{
+    padding-left:1em;
+}
+
+aside
+{
+    text-align:center;
+}
+
+aside h1{
+    font-size: 1em;
+    font-weight:bold;
+}

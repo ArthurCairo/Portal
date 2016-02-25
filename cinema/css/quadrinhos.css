@@ -1,0 +1,108 @@
+
+/* INTEGRATED NAV SECTION */
+.navbar.integrated {
+    background-color:#8B0000;
+    font-weight: bold;
+}
+.page-container {
+    margin-top: 50px;
+}
+#logo {
+    margin-top:1em;
+    border: 1px black dotted;
+    background-color: gray;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+/* HEADER */
+
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 3px 10px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulos {
+	font: bold;
+	color: black;
+    text-align: center;
+}
+.cabecalho{
+    font: bold;
+    color: #EEC900;
+    text-align: left;
+    font-size: 50px;
+
+}
+
+#logo {
+    border: 1px black dotted;
+    background-color: gray;
+    width: 150px;
+    height: 50px;
+}
+
+/* SECTION NAV */
+
+.section-navbar {
+    border-radius: 0px;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: #BC0505 1px solid;
+}
+
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.batman {
+
+    text-align: left;
+    float: left;
+}
+.hal {
+    float: right;
+    text-align: left;
+}
+
+.destaques{
+
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+.eventos{
+font-size: 20px;
+text-align: left;
+}
+.tituloeventos{
+    color: #8B0000;
+}
+aside {
+    float: left;
+}

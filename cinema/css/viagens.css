@@ -1,0 +1,147 @@
+/* Gabriel Silverio*/
+.navbar.integrated {
+    background-color: #2a2a2a;
+    font-weight: bold;
+}
+.page-container {
+    margin-top: 50px;
+}
+#logo {
+    margin-top:1em;
+    border: 1px black dotted;
+    background-color: gray;
+    width: 150px;
+    height: 50px;
+}
+header{
+    background-color:#fcdb00;/*cor principal*/
+    color: #ac8001;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.page-title
+{
+    background-color: #fcdb00;/*cor principal*/
+    color:#ac8001;
+}
+body{
+    margin: 0 auto;
+}
+.titulo-artigo{
+    font-size: 1em;
+    color:#ac8001;
+    background-color:#ffdf74;
+    margin-top: 0.75em;
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+ul li{
+   display:inline;
+}
+.navbar-inverse{
+    background-color:#ffd341;
+    border-color:transparent;
+    color:#000;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+	background-color: #ac8001;
+}
+
+
+.thumbnail{
+    text-align:center;
+}
+article h1{
+    font-size: 1.3em;
+    padding-left: 2em;
+}
+article h3,p
+{
+    text-align:center;
+}
+article a:hover{
+    background-color:#000;
+}
+.destaques{
+    margin-left:4em;
+}
+
+footer {
+    margin-top: 2em;
+    border-top: #fcdb00 1px solid;
+}
+footer ul li
+{
+    display:block;
+}
+footer p
+{
+    text-align:justify;
+}
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/* FOOTER */
+
+/*footer {
+    border-top: #28ad17 1px solid;
+}
+
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}*/
+
+.duas-colunas h3{
+    text-align:left;
+    padding-left: 1em;
+}
+.duas-colunas p{
+    text-align:justify;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.top_10 p{
+    text-align:justify;
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+article .row{
+    margin-top:1em;
+}
+.lista{
+    padding-left:0px;   
+}
+.lista ul{
+    padding-left:1em;
+}
+
+a {
+color: #ac8001;
+}

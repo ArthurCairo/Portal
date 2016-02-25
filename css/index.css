@@ -1,0 +1,115 @@
+.site_container {
+    margin-top: 50px;
+}
+
+/* INTEGRATED NAV SECTION */
+.navbar.integrated {
+    background-color: #2a2a2a;
+    font-weight: bold;
+}
+
+/* HEADER SECTION */
+
+#logo {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* CAROUSEL SECTION */
+
+.carousel-row {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-bottom: 5px; 
+}
+
+.carousel-caption {
+    color: #2a2a2a;
+}
+
+.carousel-navigation {
+}
+
+.carousel-navigation li {
+    list-style: none;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0px;
+    padding-top: 50px;
+}
+
+/* NÃO FUNCIONA */
+/*
+.carousel-navigation li.active {
+    color: gray;
+}
+*/
+.carousel-navigation li:hover {
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* DESTAQUES SECTION */
+
+.destaque {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.destaque h2 {
+    text-align: center;
+}
+
+.destaque p {
+    text-align: justify;
+    padding: 0px 5px;
+}
+
+footer {
+    border-top: black 1px solid;
+    text-align: center;
+    margin-top: 2px;
+}
+
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*Home*/
+.h3home {
+color: black;
+
+}
+
+.sechome{
+background-color: whitesmoke;
+}
+
+.h3home:hover {
+color: black;
+
+}
+
+.fothome{
+text-align: center;
+}
+
+body{background-color: whitesmoke;}

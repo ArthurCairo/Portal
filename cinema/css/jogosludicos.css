@@ -1,0 +1,138 @@
+
+/* INTEGRATED NAV SECTION */
+.navbar.integrated {
+    background-color: #2a2a2a;
+    font-weight: bold;
+}
+
+/* CORRIGE O PROBLEMA DA PÁGINA FICAR EM BAIXO DA NAVBAR */
+.page-container {
+    margin-top: 50px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #3E0470;
+    color: white;
+    padding: 3px 10px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    border: 1px black dotted;
+    background-color: #3E0470;
+    width: 150px;
+    height: 50px;
+}
+
+/* SECTION NAV */
+
+.section-navbar {
+    border-radius: 0px;
+}
+
+/* CAROUSEL */
+
+.carousel-row {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    margin-bottom: 5px; 
+}
+
+.carousel-caption {
+    color: #2a2a2a;
+    /*background-color: rgba(42, 42, 42, 0.3);*/
+}
+.carousel-caption h3 {
+    color: black;
+    border: none;
+}
+
+.carousel-navigation {
+}
+
+.carousel-navigation li {
+    list-style: none;
+    color: #2a2a2a;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+.carousel-navigation li:hover {
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* MAIN CLASSES */
+
+h2 {
+    background-color: #620CAC;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+h3 {
+    border-bottom: 1px solid #620CAC;
+    color : #320571;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px rgba(42, 42, 42, 0.3);
+}
+
+.news-box {
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px #d9d9d9;
+}
+
+.news-box img {
+    /*width: 100%;*/
+}
+
+.news-box h4 {
+    padding: 5px 10px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+    background-color: #620CAC;
+    color: white;
+    font-weight: bold;
+}
+
+.news-box p {
+    text-align: justify;
+    padding: 0px 5px;
+}
+
+.news-box .article-date {
+    color: gray;
+}
+
+
+/* FOOTER */
+
+footer {
+    border-top: #28ad17 1px solid;
+}
+
+footer .section_items {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer .section_items p {
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer .section_items ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
